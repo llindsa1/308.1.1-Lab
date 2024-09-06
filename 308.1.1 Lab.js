@@ -7,7 +7,10 @@ Accomplish the following arithmetic chain:
 Subtract the first number from the second number.
 Multiply the result by the third number.
 Find the remainder of dividing the result by the fourth number.
-Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
+Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.*/
+const dividebtfive = n1 % 5 ===0 && n2 % 5 ===0 && n3 % 5 ===0 && n4 % 5 ===0;
+console.log(dividebtfive)
+
 
 
 /*
